@@ -1,0 +1,234 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView
+        android:id="@+id/equation"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:gravity="bottom|right"
+        android:textSize="32dp"
+        android:text="" />
+	
+    <TableRow
+        android:id="@+id/tableRow0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        
+        <Button
+            android:id="@+id/five_percent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:text="@string/ten_percent"
+            android:textSize="20dp"
+            android:onClick="tip"
+            android:tag="0.10" />
+
+        <Button
+            android:id="@+id/ten_percent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:text="@string/fifteen_percent"
+            android:textSize="20dp"
+            android:onClick="tip"
+            android:tag="0.15" />
+
+        <Button
+            android:id="@+id/fifteen_percent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:text="@string/twenty_percent"
+            android:textSize="20dp"
+            android:onClick="tip"
+            android:tag="0.20" />
+        
+        <Button
+            android:id="@+id/twentyfive_percent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:text="@string/twentyfive_percent"
+            android:textSize="20dp"
+            android:onClick="tip"
+            android:tag="0.25" />
+        
+        <Button
+            android:id="@+id/thirty_percent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:text="@string/thirty_percent"
+            android:textSize="20dp"
+            android:onClick="tip"
+            android:tag="0.30" />
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        
+        <Button
+            android:id="@+id/seven"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/seven"
+            android:textSize="44dp"
+            android:onClick="input"
+            android:tag="7" />
+
+
+        <Button
+            android:id="@+id/eight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:text="@string/eight"
+            android:textSize="44dp"
+            android:onClick="input"
+            android:tag="8" />
+
+        <Button
+            android:id="@+id/nine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/nine"
+            android:textSize="44dp"
+            android:onClick="input"
+            android:tag="9" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        
+        <Button
+            android:id="@+id/four"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:text="@string/four"
+            android:textSize="44dp"
+            android:onClick="input"
+            android:tag="4" />
+
+        <Button
+            android:id="@+id/five"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:text="@string/five"
+            android:textSize="44dp"
+            android:onClick="input"
+            android:tag="5" />
+
+        <Button
+            android:id="@+id/six"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:text="@string/six"
+            android:textSize="44dp"
+            android:onClick="input"
+            android:tag="6" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        
+        <Button
+            android:id="@+id/one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:text="@string/one"
+            android:textSize="44dp"
+            android:onClick="input"
+            android:tag="1" />
+
+        <Button
+            android:id="@+id/two"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:text="@string/two"
+            android:textSize="44dp"
+            android:onClick="input"
+            android:tag="2" />
+
+        <Button
+            android:id="@+id/three"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:text="@string/three"
+            android:textSize="44dp"
+            android:onClick="input"
+            android:tag="3" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        
+        <Button
+            android:id="@+id/backspace"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:text="@string/backspace"
+            android:textSize="44dp"
+            android:onClick="backspace" />
+        
+        <Button
+            android:id="@+id/zero"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:text="@string/zero"
+            android:textSize="44dp"
+            android:onClick="input"
+            android:tag="0" />
+
+        <Button
+            android:id="@+id/point"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:text="@string/point"
+            android:textSize="44dp"
+            android:onClick="input"
+        	android:tag="." />
+    </TableRow>
+</TableLayout>
