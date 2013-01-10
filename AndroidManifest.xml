@@ -5,11 +5,11 @@
 
     <uses-sdk
         android:minSdkVersion="7"
-        android:targetSdkVersion="15" />
+        android:targetSdkVersion="17" />
 
     <application
         android:icon="@drawable/ic_launcher"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/Theme.Sherlock.Light.DarkActionBar" >
         <activity
             android:name=".Tip"
             android:label="@string/title_activity_tip" >

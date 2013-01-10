@@ -1,14 +1,13 @@
 package com.willkwon.tip;
 
 import java.text.DecimalFormat;
-
-import android.R;
+import com.actionbarsherlock.app.SherlockActivity;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class Tip extends Activity {
+public class Tip extends SherlockActivity {
 	public static TextView total;
 	public static Boolean solved;
 	public static Double subtotal;
