@@ -9,7 +9,7 @@
 
     <application
         android:icon="@drawable/ic_launcher"
-        android:theme="@style/Theme.Sherlock.Light.DarkActionBar" >
+        android:theme="@style/Theme.Sherlock.Light.DarkActionBar" android:allowBackup="true">
         <activity
             android:name=".Tip"
             android:label="@string/title_activity_tip" >
